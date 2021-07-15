@@ -1,0 +1,17 @@
+.nav.active {
+    display: flex;
+}
+.nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 70px;
+    background: rgb(133, 133, 133);
+    z-index: 6000;
+}
+.nav__item {
+    padding: 10px 20px;
+margin-bottom: 30px;
+color: var(--text);
+}

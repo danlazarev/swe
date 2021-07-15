@@ -1,0 +1,275 @@
+    @media (max-width: 1200px) {
+        .container {
+            width: 800px;
+        }
+        .about-wrapper {
+            display: block;
+        }
+        .about-text, .about-img {
+            width: 100%;
+        }
+        .about-img {
+            margin-top: 40px;
+        }
+        .bonus-wrapper {
+            display: block;
+        }
+        .bonus-text {
+            margin-left: 0;
+            width: 454px;
+            margin-top: 30px;
+        }
+        .devilery-wrapper {
+            display: block;
+        }
+        .delivery-item:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        .team-item:not(:last-child) {
+            margin-right: 0;
+        }
+        .team-item:last-child {
+            margin-top: 30px;
+        }
+        .team {
+            justify-content: space-evenly;
+        }
+        .designer {
+            display: none;
+        }
+        .footer {
+            font-size: 12px;
+        }
+        .footer-link:not(:last-child) {
+            margin-right: 30px;
+        }
+        .bonus-img {
+            width: 100%;
+        }
+        .bonus-img img {
+            width: 100%;
+        }
+        .present {
+            top: 70%;
+            width: 25%;
+        }
+        .top-line-btns {
+            margin-left: 100px;
+            flex-basis: 25%;
+        }
+        .top-line__theme {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 30px;
+            flex-basis: 16%;
+
+        }
+        .top-line-btns__item:not(:last-child) {
+            margin-right: 10px;
+        }
+        .sertificate-list {
+            justify-content: space-around;
+        }
+        .sertificate-item {
+            width: auto;
+            margin-bottom: 25px;
+        }
+        .error-heading p {
+            font-size: 60px;
+        }
+        .error-heading span {
+            font-size: 80px;
+        }
+        .error-heading {
+            width: 292px;
+        }
+        .error-text {
+            font-size: 14px;
+        }
+        .error-error {
+            font-size: 18px;
+        }
+        .product-wrapper {
+            flex-direction: column;
+        }
+        .product-desc {
+            margin-top: 30px;
+        }
+        .principles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
+
+
+    @media (max-width: 992px) {
+        .container {
+            width: 580px;
+        }
+        .top-line-btns {
+            margin-left: 0;
+        }
+        .top-line__theme {
+            margin-right: 30px!important;
+        }
+        .top-line__switcher {
+            margin-right: 15px;
+        }
+        .sertificate-text {
+            width: 100%;
+        }
+        .sertificate-item {
+            margin-bottom: 30px;
+        }
+        .logo {
+            flex-basis: 25%;
+        }
+        .error-error {
+            margin-top: 30px;
+            width: 300px;
+        }
+        .principles__item {
+            margin-bottom: 30px;
+        }
+    }  
+
+    @media (max-width: 768px) {
+        .container {
+            width: 370px;
+        }
+        .top-line-btns {
+            display: none;
+        }
+        .top-line__switcher {
+            display: none;
+        }
+        .top-line {
+            justify-content: space-between;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .bonus-text {
+            width: 100%;
+        }
+        .delivery-text {
+            width: 320px;
+        }
+        .team-item {
+            margin-bottom: 30px;
+        }
+        .designer {
+            display: block;
+        }
+        .footer {
+            height: 268px;
+        }
+        .footer-wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-evenly;
+            height: 190px;
+        }
+        .footer-link:not(:last-child) {
+            margin-right: 0;
+        }
+
+        .designer {
+            margin: 0 auto;
+        }
+        .logo {
+            flex-basis: 35%;
+        }
+        .footer-error-{
+            height: 100px!important;
+            padding: 30px 0;
+        } 
+        .error-error {
+            margin-top: 30px;
+            width: 300px;
+            margin-left: 0;
+        }
+        .product-btn {
+            flex-direction: column;
+            width: 270px;
+        }
+        .btn-ghost {
+            margin-top: 30px;
+        }
+        .product-sale {
+            display: none;
+        }
+        .total-price {
+            margin-bottom: 10px;
+        }
+    }
+    @media (max-width: 375px) {
+        .slider-share {
+            display: none;
+        }
+    }
+    @media (max-width: 576px) {
+        .container {
+            width: 290px;
+            margin: 0 auto;
+            overflow-x: hidden;
+        }
+        .home-aside {
+            display: none;
+        }
+        .top-line__theme {
+            display: none;
+        }
+        .top-line {
+            padding-left: 0;
+        }
+        .logo {
+            margin-left: 20px;
+        }
+        .present {
+            display: none;
+        }
+        section {
+            padding-top: 60px;
+        }
+        .about {
+            padding-top: 137px;
+        }
+        .logo {
+            flex-basis: 55%;
+        }
+        .sertificate-item {
+            width: 100%;
+        }
+        .catalog-item {
+            width: 100%;
+        }
+        .catalog-item__parag {
+            width: 260px;
+        }
+        .catalog-wrapper {
+            width: 100%;
+        }
+        .catalog-price {
+            width: 260px;
+        }
+        .error-error {
+            width: 280px;   
+        }
+        .error-section {
+            padding: 90px 0 0 0;
+        }
+        .principles__item {
+            width: 100%;
+            font-size: 14px;
+        }
+        h4 {
+            font-size: 16px;
+            width: 190px;
+        }
+        .principles__item p {
+            width: 190px;
+        }
+    }
